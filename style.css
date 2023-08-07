@@ -1,0 +1,248 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Manrope";
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+.card {
+  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+  max-width: 37.5rem;
+  background-color: white;
+}
+
+.mainphoto {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+  object-position: 45% 45%;
+  border-radius: 1.5rem 1.5rem 0 0;
+}
+
+main {
+  padding: 3.5rem 3rem 1.5rem 3rem;
+}
+
+h1 {
+  color: hsl(217, 19%, 35%);
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.message {
+  color: hsl(212, 23%, 69%);
+  margin-top: 1.8rem;
+  font-size: 1.7rem;
+  line-height: normal;
+}
+
+#bottominfo {
+  border-radius: 0 0 1.5rem 1.5rem;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile {
+  width: 13%;
+  border-radius: 5rem;
+  margin-left: 3rem;
+}
+
+.nameandtime {
+  font-size: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2.5rem;
+  justify-content: space-around;
+}
+.name {
+  color: hsl(217, 19%, 35%);
+  font-weight: 700;
+}
+
+.time {
+  color: hsl(212, 23%, 69%);
+}
+
+#sharebutton1 {
+  margin-left: 8rem;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+}
+
+#bottominfo2 {
+  display: flex;
+  align-items: center;
+  height: 68.75px;
+  background-color: hsl(217, 19%, 35%);
+  border-radius: 0 0 1.5rem 1.5rem;
+  margin-top: 2rem;
+  display: none;
+}
+
+h6 {
+  margin-left: 3rem;
+  color: hsl(212, 23%, 69%);
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.social {
+  margin-left: 2.2rem;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.sharebutton2 {
+  margin-left: 9rem;
+  border: none;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 4rem;
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    font-family: "Manrope";
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  .card {
+    display: flex;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    max-width: 1440px;
+    background-color: white;
+  }
+
+  .mainphoto {
+    width: 52.8rem;
+    height: 52rem;
+    object-fit: cover;
+    object-position: 0 50%;
+    border-radius: 1.5rem 0 0 1.5rem;
+  }
+
+  main {
+    box-sizing: border-box;
+    width: 72rem;
+    padding: 7.3rem 6rem 3.5rem 6rem;
+  }
+
+  h1 {
+    color: hsl(217, 19%, 35%);
+    font-size: 3.5rem;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .message {
+    color: hsl(212, 23%, 69%);
+    margin-top: 2.9rem;
+    font-size: 2.3rem;
+    line-height: normal;
+    font-weight: 400;
+  }
+
+  #bottominfo {
+    position: absolute;
+    border-radius: 0 0 1.5rem 1.5rem;
+    padding-bottom: 2rem;
+    margin-top: 38rem;
+    margin-left: 56rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .profile {
+    width: 14%;
+    border-radius: 5rem;
+    margin-left: 3rem;
+  }
+
+  .nameandtime {
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5rem;
+    justify-content: space-around;
+  }
+  .name {
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+  }
+
+  .time {
+    color: hsl(212, 23%, 69%);
+    font-weight: 400;
+  }
+
+  #sharebutton1 {
+    margin-top: 2rem;
+    margin-left: 25rem;
+    border: none;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 6rem;
+  }
+
+  #bottominfo2 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 88.75px;
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+    margin-top: 25rem;
+    margin-left: 96rem;
+    display: none;
+  }
+
+  #bottominfo2 :after {
+    content: "";
+    position: absolute;
+    bottom: -67%;
+    height: 0;
+    width: 0;
+    left: 44%;
+    border: 30px solid transparent;
+    border-bottom-color: hsl(217, 19%, 35%);
+    transform: rotate(180deg);
+  }
+
+  h6 {
+    margin-left: 5rem;
+    color: hsl(212, 23%, 69%);
+    font-size: 2.3rem;
+    font-weight: 500;
+    letter-spacing: 0.5rem;
+  }
+  .social {
+    margin-right: 4.9rem;
+    margin-left: 3.9rem;
+    display: flex;
+    gap: 3.9rem;
+  }
+
+  .sharebutton2 {
+    display: none;
+    margin-left: 9rem;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 4rem;
+  }
+}
